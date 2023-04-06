@@ -1,13 +1,17 @@
 export type IconNames =
-  | 'Logo'
-  | 'Close'
-  | 'Plus'
-  | 'Left'
-  | 'Right'
-  | 'Up'
-  | 'Down'
-  | 'ArrowLeft'
-  | 'ArrowRight'
+  | 'Add'
+  | 'Avatar'
+  | 'Check'
+  | 'CheckCircle'
+  | 'Delete'
+  | 'Home'
+  | 'InfoCircle'
+  | 'Menu'
+  | 'MenuLeft'
+  | 'MenuRight'
+  | 'Remove'
+  | 'Search'
+  | 'Settings'
 
 export interface IconNameListProps {
   [key: string]:
