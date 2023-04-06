@@ -14,7 +14,7 @@ export default defineConfig((configEnv) => ({
       entry: resolve('src', 'index.ts'),
       fileName: (format) => `index.${format}.js`,
       formats: ['es', 'umd'],
-      name: '@kreattix/react',
+      name: '@kreattix/icons',
     },
     minify: 'esbuild',
     rollupOptions: {
