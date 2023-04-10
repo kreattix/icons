@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Kreattix-Icons';
+  src: url('../fonts/Kreattix-Icons.ttf?b8vy1e') format('truetype'),
+    url('../fonts/Kreattix-Icons.woff?b8vy1e') format('woff'),
+    url('../fonts/Kreattix-Icons.svg?b8vy1e#Kreattix-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.kreattix-icons,
+[class^='ki-'],
+[class*=' ki-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Kreattix-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga=1';
+  -moz-font-feature-settings: 'liga';
+  -ms-font-feature-settings: 'liga' 1;
+  font-feature-settings: 'liga';
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ki-add:before {
+  content: '\e100';
+}
+.ki-add-outlined:before {
+  content: '\e100';
+}
+.ki-plus:before {
+  content: '\e100';
+}
+.ki-plus-outlined:before {
+  content: '\e100';
+}
+.ki-angle-down:before {
+  content: '\e900';
+}
+.ki-angle-down-outlined:before {
+  content: '\e900';
+}
+.ki-angle-left:before {
+  content: '\e901';
+}
+.ki-angle-left-outlined:before {
+  content: '\e901';
+}
+.ki-angle-right:before {
+  content: '\e902';
+}
+.ki-angle-right-outlined:before {
+  content: '\e902';
+}
+.ki-angle-up:before {
+  content: '\e903';
+}
+.ki-angle-up-outlined:before {
+  content: '\e903';
+}
+.ki-avatar:before {
+  content: '\e101';
+}
+.ki-user-circle:before {
+  content: '\e101';
+}
+.ki-avatar-outlined:before {
+  content: '\e102';
+}
+.ki-user-circle-outlined:before {
+  content: '\e102';
+}
+.ki-check:before {
+  content: '\e103';
+}
+.ki-done:before {
+  content: '\e103';
+}
+.ki-tick:before {
+  content: '\e103';
+}
+.ki-check-outlined:before {
+  content: '\e103';
+}
+.ki-done-outlined:before {
+  content: '\e103';
+}
+.ki-tick-outlined:before {
+  content: '\e103';
+}
+.ki-check-circle:before {
+  content: '\e104';
+}
+.ki-done-circle:before {
+  content: '\e104';
+}
+.ki-tick-circle:before {
+  content: '\e104';
+}
+.ki-check-circle-outlined:before {
+  content: '\e105';
+}
+.ki-done-circle-outlined:before {
+  content: '\e105';
+}
+.ki-tick-circle-outlined:before {
+  content: '\e105';
+}
+.ki-close:before {
+  content: '\e106';
+}
+.ki-remove:before {
+  content: '\e106';
+}
+.ki-close-outlined:before {
+  content: '\e106';
+}
+.ki-remove-outlined:before {
+  content: '\e106';
+}
+.ki-delete:before {
+  content: '\e107';
+}
+.ki-trash:before {
+  content: '\e107';
+}
+.ki-delete-outlined:before {
+  content: '\e108';
+}
+.ki-trash-outlined:before {
+  content: '\e108';
+}
+.ki-favourite-filled:before {
+  content: '\e904';
+}
+.ki-heart-filled:before {
+  content: '\e904';
+}
+.ki-favourite-outlined:before {
+  content: '\e905';
+}
+.ki-heart-outlined:before {
+  content: '\e905';
+}
+.ki-home:before {
+  content: '\e109';
+}
+.ki-house:before {
+  content: '\e109';
+}
+.ki-home-outlined:before {
+  content: '\e10a';
+}
+.ki-house-outlined:before {
+  content: '\e10a';
+}
+.ki-info-circle:before {
+  content: '\e10b';
+}
+.ki-info-circle-outlined:before {
+  content: '\e10c';
+}
+.ki-menu:before {
+  content: '\e10d';
+}
+.ki-menu-outlined:before {
+  content: '\e10d';
+}
+.ki-menu-left:before {
+  content: '\e10e';
+}
+.ki-menu-left-outlined:before {
+  content: '\e10e';
+}
+.ki-menu-right:before {
+  content: '\e10f';
+}
+.ki-menu-right-outlined:before {
+  content: '\e10f';
+}
+.ki-search:before {
+  content: '\e110';
+}
+.ki-search-outlined:before {
+  content: '\e110';
+}
+.ki-settings:before {
+  content: '\e111';
+}
+.ki-settings-outlined:before {
+  content: '\e112';
+}
