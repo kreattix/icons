@@ -1,6 +1,6 @@
 {
   "name": "@kreattix/icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
@@ -18,7 +18,7 @@
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
     "format": "prettier --write src//**/*.{ts,tsx} --config ./.prettierrc",
     "prepare": "husky install",
-    "build:svg": "npx @svgr/cli public/icons --out-dir src/icons --icon --typescript --replace-attr-values \"#000=currentColor\""
+    "build:svg": "npx @svgr/cli public/assets/icons --out-dir src/components --icon --typescript --replace-attr-values \"#000=currentColor\""
   },
   "peerDependencies": {
     "react": ">=18.x",
